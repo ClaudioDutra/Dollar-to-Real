@@ -1,0 +1,8 @@
+{
+  "name": "dollar-to-real",
+  "version": "1.0.0",
+  "description": "Convert dollar to real and real to dollar",
+  "main": "index.html",
+  "author": "Claudio Bandeira Dutra",
+  "license": "MIT"
+}
