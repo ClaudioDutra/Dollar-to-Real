@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    max-width: 700px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BD6686;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 3rem;
+    font-size: 3rem;
+    color: #D9C7CE;
+}
+
+main {
+    min-height: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+main fieldset {
+    border: none;
+    font-size: 2rem;
+}
+
+main fieldset input {
+    height: 2rem;
+    font-size: 2rem;
+    background-color: #BD6686;
+    border: none;
+    border-bottom: 1px solid #D9C7CE;
+    color: #D9C7CE;
+}
+
+footer, footer a {
+    font-size: 1rem;
+    color: #B8C8E3;
+}
